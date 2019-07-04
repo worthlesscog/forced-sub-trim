@@ -14,7 +14,7 @@ Makes use of MKVToolNix for demux / remux so it needs to be on your path somewhe
 ```
 fst -describe /movies
 fst -scan /movies
-fst -trim /movies/film.mkv
+fst -trim 4 /movies/film.mkv
 ```
 ### Scan output 
 ```
